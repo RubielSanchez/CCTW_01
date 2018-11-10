@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px; padding:0px; border:0px;}
+body {text-align:center;}
+#cabecera {background-color:pink;}
+#navegacion {background-color:gray;}
+#contenido {background-color:orange;}
+#pie {background-color:brown;}
+#global {width:800px; margin:4px auto;}
+/* #menu {background-color:yellow; width:200px; float:left;} */
+#menu {background-color:yellow; width:150px; float:left; text-align:left;margin:10px 8px 3px 10px;}
+/* background-color:yellow: Color de Fondo del Menu
+   width:150px: Ancho que tendra el background
+   float:left:  La principal característica del posicionamiento float es que el resto de elementos de la página se adaptan para fluir alrededor de la caja flotante.
+*/
+#contenido {background-color:orange; width:800px; float:left;}
+/* #menu li list-style:none; */
+#menu li {list-style:none; margin:3px 10px 3px 3px;}
+/*
+ El orden de las dimensiones del margin, arriba-derecha-abajo-izquierda.
+ margin: 10px; es posible establecer de forma abreviada el mismo valor a todos los márgenes de un elemento.
+ margin: 10px 20px; Si se indican dos valores, el primero hace referencia a los márgenes verticales y el segundo es el valor de los márgenes horizontales.
+ margin: 10px 20px 30px; Si se indican tres valores, el primero hace referencia al margen superior, el segundo es el valor de los márgenes horizontales y el tercero es el margen inferior.
+ margin: Por último, si se indican cuatro valores el primero es el margen superior, el segundo es el margen derecho, el tercero es el margen inferior y el cuarto es el margen izquierdo
+*/
+/*
+ Link: Es el estado normal que tiene un enlace cuando no está en ninguno de los otros tres estados.
+- Visited: Imagino que te habrás fijado que en algunas webs se colorean de otro color los enlaces que ya has visitado antes, verdad? Pues "visited" es el estado del enlace cuando éste ya ha sido visitado por el usuario anteriormente.
+- Hover: Es el estado del enlace cuando el cursor del ratón está justo encima de él, pero sin apretar el botón aún. También lo has debido ver, pasas el ratón sobre un menú y se van coloreando o poniendo en negrita los enlaces que señalas.
+- Active: Y este es el estado de un enlace o vínculo cuando está siendo presionado por el ratón y mientras no se suelta el dedo.
+*/
+/* a {color:blue; font-size:1.3em; text-decoration:none;} */
+a {color:brown; text-decoration:none; display:block;}
+a:link{}
+a:visited{}
+a:hover{color:red; text-decoration:underline;background-color:silver;}
+a:active{}
+a {color:brown; text-decoration:none; display:block;}
+p {text-align:justify;}
+/* text-align:left; 
+   text-align:right; 
+   text-align:center; */
+#contenido p {padding:5px 10px 5px 10px;text-indent:15px;}
+
+/* Ejemplo con DIVs */
+  /* Lesson II */
+     /* Los Titulos */
+h1 {font-size:1.2em; color:blue; font-weight:bold; text-decoration:underline; text-align:center;}
+h2 {font-size:1.1em; color:blue; font-weight:bold; text-decoration:none; text-align:center;} 
+

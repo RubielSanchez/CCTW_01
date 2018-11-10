@@ -1,0 +1,6 @@
+body {background-color: #E6E6FA;
+	background-image:url(objetos/logo.gif);
+	background-repeat:no-repeat;
+	background-position:center  center;height:100%;
+	img {border-style:none;}
+.centrado {text-align:center;}
