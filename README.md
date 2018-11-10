@@ -1,2 +1,2 @@
 # CCTW_01
-Este es un proyecto de prueba para aprencder el manejo de GitHub
+Este es un proyecto de prueba para aprender el manejo de GitHub
